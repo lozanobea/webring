@@ -1,0 +1,76 @@
+body{
+  font-family:Helvetica, Arial, Sans-Serif;
+} 
+
+/*Background Colors */
+.homepage{
+  background-color:#1400FF;
+}  
+
+.studio{
+  background-color:magenta;
+}
+
+
+ul{
+  list-style-type:none; 
+} 
+
+.nav li a{
+  display: block; 
+  color:white;  
+  opacity: 0.5;  
+  text-decoration: none;   
+  font-size: 110px; 
+  margin-bottom: 35px;  
+} 
+
+.nav li a:hover{
+  opacity:1;
+} 
+
+.nav a.active{
+  opacity:1;
+}
+
+.nav{
+  
+  width: 40%; 
+  padding:20px; 
+  float:left; 
+}
+
+.bio{
+  color:white; 
+  padding:35px; 
+  margin-right:10%; 
+  margin-left:60%; 
+  font-size: 20px; 
+  line-height:23px;
+}  
+
+.bio a{
+  color:white;
+} 
+
+.projects {
+  color:white; 
+  padding:35px; 
+  margin-right:10%; 
+  margin-left:60%; 
+  font-size: 40px; 
+  line-height:46px; 
+}   
+
+.projects a{
+  color:white; 
+  text-decoration: none; 
+} 
+
+.projects li{
+  margin-bottom:15px;
+} 
+
+.projects li:hover{
+  font-style:italic; 
+}
